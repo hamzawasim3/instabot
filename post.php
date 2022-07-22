@@ -31,18 +31,6 @@ function search_img(){
 	$randnum = rand(2000000,3000000);
 	$randnum2 = rand(130000,160000);
 	global $image;
-$url_image = "https://api.pexels.com/v1/photos/".$randnum;
-$curl_image = curl_init($url_image);
-curl_setopt($curl_image, CURLOPT_URL, $url_image);
-$headers_image = array(
-   "Authorization: 563492ad6f91700001000001a85e45fdf9e546b1b06231cff7819e86",
-);
-curl_setopt($curl_image, CURLOPT_HTTPHEADER, $headers_image);
-curl_setopt($curl_image, CURLOPT_RETURNTRANSFER, true);
-curl_setopt($curl_image, CURLOPT_SSL_VERIFYHOST, false);
-curl_setopt($curl_image, CURLOPT_SSL_VERIFYPEER, false);
-$resp_image = curl_exec($curl_image);
-$resp_image1 = json_decode($resp_image);
 
 $image_file = file_get_contents("https://images.wallpaperscraft.com/image/single/".$randnum2."_1280x720.jpg");
 if(($image_file == "") || ($image_file == null) || (!isset($image_file)) || (empty($image_file))){
