@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <title>Quote Bot</title>
+    <title>Insta Quote Bot</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -13,8 +13,8 @@
       <div id="overlay"></div>
       <div id="main">
           <header id="header">
-          <h1>Quote Bot <small>v1.0</small></h1>
-          <p>Quote Bot is a simple web app that can auto create an image with an inspirational quote and a background and then auto post the image to its Instagram Page.</p>
+          <h1>Insta Quote Bot <small>v1.0</small></h1>
+          <p>Insta Quote Bot is a simple web app that can auto create an image with an inspirational quote and a background and then auto post the image to its Instagram Page.</p>
           <p>This bot post quotes every hour!</p><br>
           <p class="text-center"><code>
 				<?php
