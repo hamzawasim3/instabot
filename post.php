@@ -126,7 +126,8 @@ post_image();
 	
 	function post_image(){
 	global $randname;
-	$path_img = "https://www.hamzawasim.net/projects/instaquotebot/".$randname.".jpg";
+	$file_path = substr($_SERVER['PHP_SELF'],0,strlen($_SERVER['PHP_SELF'])-8);
+	$path_img = "https://".$_SERVER['HTTP_HOST'].$file_path.$randname.".jpg";
 	$instagramAccountId = $instagram_account_id;
 	$accessToken = $fb_access_token;
     global $imageMediaObjectResponseArray;
