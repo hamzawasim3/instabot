@@ -67,7 +67,7 @@ addtextimage();
 
 function addtextimage(){
     global $randname;
-	$path = "../instabot/assets/webfonts/anchor.ttf";
+	$path = "../instaquotebot/assets/webfonts/anchor.ttf";
 	global $image;
 	global $quote;
 	global $img;
@@ -126,7 +126,7 @@ post_image();
 	
 	function post_image(){
 	global $randname;
-	$path_img = "https://www.hamzawasim.net/projects/instabot/".$randname.".jpg";
+	$path_img = "https://www.hamzawasim.net/projects/instaquotebot/".$randname.".jpg";
 	$instagramAccountId = $instagram_account_id;
 	$accessToken = $fb_access_token;
     global $imageMediaObjectResponseArray;
