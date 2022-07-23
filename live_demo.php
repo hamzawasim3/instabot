@@ -41,7 +41,7 @@ addtextimage();
 }
 
 function addtextimage(){
-	$path = "../instabot/assets/webfonts/anchor.ttf";
+	$path = "../instaquotebot/assets/webfonts/anchor.ttf";
 	global $image;
 	global $quote;
 	global $img;
