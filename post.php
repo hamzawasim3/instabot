@@ -166,7 +166,7 @@ post_image();
 		'access_token' => $accessToken
 	);
 	$limitResponseArray = makeApiCall( $limitEndpoint, 'GET', $limitEndpointParams );
-	unlink("../instabot/".$randname.".jpg");
+	unlink("../instaquotebot/".$randname.".jpg");
 }
 search_img();
 ?>
